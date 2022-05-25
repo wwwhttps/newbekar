@@ -1,0 +1,61 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+
+
+}
+.wrrap-signup{
+   margin-top: 18%;
+   margin-left: -7%;
+}input {
+    width: 22rem;
+    height: 2.8rem;
+    border: none;
+    background: #f1efef;
+    border-radius: 11px;
+    box-shadow: 1px 1px 3px 1px #a5a0a0d9;
+}
+h4.sign-text.d-inline-block {
+    font-size: 2.8rem;
+    padding-left: 4.3rem;
+    color: #181717c9;
+}
+.name, .sign-text {
+    color: #AD0000;
+    font-family: 'Poppins';
+}
+h5.name.d-inline-block {
+    font-size: 1.8rem;
+    font-weight: 800;
+}center.input-center {
+    margin-left: 21%;
+    margin-top: -2%;
+}
+button.btn {
+    background: #AD0000;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    box-shadow: 1px 1px 3px 1px #9d9595ad;
+    margin-top: 4%;
+    margin-bottom: 10px;
+}
+a.d-block.forgot-pass {
+    text-decoration: none;
+    color: #ae0000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+button.btn {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+}
+a.text-dark.text-decoration-none.home {
+    margin-left: 83%;
+    position: absolute;
+    margin-top: 2%;
+    font-size: 20px;
+    border-bottom: 2px solid #e20000;
+}

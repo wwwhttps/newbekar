@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../css/horse.css">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/contest.css">
+  <link rel="stylesheet" href="../css/home.css">  
+<title>বেকার.com</title>
+<link rel="icon" href="../img/logo.png" type="image/icon type">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+  *{
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  .signup-btn {
+    background: #ad0000;
+    color: #fff !important;
+    border-radius: 13px;
+    padding: 0 1.5rem;
+}
+
+  .navbar {
+    position: fixed;
+    width: 94%;
+    z-index: 444;
+}
+li.nav-item.mx-2 {
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    position: absolute;
+    height: 116vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 435;
+    width: 94%;
+    margin-top: -6%;
+}
+.intro-con h1 {color: #fff;font-size: 3.4rem;}
+
+.intro-con p {color: #fff;letter-spacing: 2px;font-size: 1.4rem;}
+
+.intro-con input {
+    width: 27rem;
+    border-radius: 21px;
+    height: 2.8rem;
+    border: none;
+    outline: none;
+}
+.in-text {position: relative;height: 11rem;}
+.wrrap-new {
+    min-height: 200vh;
+}
+div#accordionExample {
+    width: 87%;
+    padding-top: 5%;
+}
+i.fa-solid.fa-circle-arrow-right {
+    color: #ad0000;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #ad0000;
+    background-color: #f5f9f8;
+}
+.about {display: flex;}
+
+.svg img {width: 100%;height: auto;}
+
+.svg {width: 100%;}
+.svg {
+    width: 100%;
+    text-align: center;
+}
+.about h2 {
+    font-size: 1.4rem;
+}
+.top h1 {font-weight: 900 !important;color: #ad0000;font-size: 3rem; display: inline-block;}
+
+span {font-size: 1.3rem;}
+
+.top h2 {font-size: 4rem;font-weight: bolder !important;}
+
+.top p {font-size: 1.3rem;font-weight: 600;}
+span.span2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bottom h3 {font-weight: bolder !important;color: #ad0000;font-size: 2.3rem;}
+
+.bottom p {font-weight: 700;font-size: 1.6rem;    margin: 3% 0;}
+.statictics {
+    margin-top: 3%;
+}
+.bottom h3:first-child:after,.line::after {
+    position: absolute;
+    content: '';
+    width: 742px;
+    color: #ad0000;
+    height: 3px;
+    background: #ad0000;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.accordion-button:focus {
+    border-color: #ad0000 !important;
+    border-radius: 10px;
+    outline: #ad0000 !important;
+    outline-color: #ad0000 !important;
+}
+.top-carted .row1 .coll img {width: 50%;}
+.row1 {display: flex;}
+.row1 {
+    display: flex;
+    overscroll-behavior-y: auto;
+    /* box-sizing: border-box; */
+    
+    overflow-x: auto;
+    /* box-sizing: content-box; */
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.top-carted .row1 .coll img {
+    width: 18%;
+}
+.coll {
+    width: 100%;
+    height: 18rem;
+}
+
+element.style {
+}
+.row1 {
+    display: flex;
+    overscroll-behavior-y: auto;
+    /* box-sizing: border-box; */
+    /* width: 52%; */
+    overflow-x: scroll;
+    /* box-sizing: content-box; */
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+figure {
+    margin: 0 1%;
+}
+figcaption.img-text {
+    margin-top: -190px;
+    margin-left: 23px;
+    color: #fff;
+}
+figure img {
+    width: 10rem;
+    margin-top: 1.4rem;
+}
+figcaption.img-text {
+    margin-top: -70px;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 2px;
+}
+figcaption.img-text h2 {
+    font-size: 1.3rem;
+}
+.motivation {
+    background: url(../img/moti-img.png);
+    color: #fff;
+    text-align: center;
+    padding:3rem 1rem;
+    margin: 1rem 0;
+}
+.motivation p:last-child {
+    text-align: right;
+}
+figure img:hover {
+    transform: scale(1.2);
+}
+</style>
+</head>
+<body>
+   <div class="container">
+       <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand home-logo" href="#">বেকার<span>.com</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+                  <li class="nav-item  mx-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="market.html">MARKETPLACE</a>
+                  </li>
+                  <li class="nav-item  mx-2">
+                    <a class="nav-link " href="categorise.html" >
+                     MEDIA
+                    </a>
+                    <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
+                  </li>
+                  <!-- <li class="nav-item mx-2">
+                    <a class="nav-link  signup-btn" href="up.html" tabindex="-1" >Sign-up</a>
+                  </li> -->
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+       </header>
+       <main>
+         <div class="container-main">
+           <div class="wrrap-slider">
+             <div class="intro-text">
+             <div class="intro-con">
+            <div class="in-text">
+              <h1>
+                স্বাগতম
+               </h1>
+               <p>আপনাকে বেকার.com এ</p>
+            </div>
+               <input type="text" name="" id="" placeholder="SEARCH ACROSS THE WEB">
+             </div>
+             </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/Group 77.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/Group 78.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/Group 79.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+           </div>
+         </div>
+         <div class="container">
+           <div class="wrrap-new">
+           <div class="statictics">
+             <div class="top">
+              <center>
+                <h1>বেকার<span>.com</span> </h1> <span class="span2">এর পরিসংখ্যান</span>
+                <h2>00000</h2>
+                <p>বেকার.com এ বেকার সংখ্যা</p>
+              </center>
+             </div>
+             <div class="bottom">
+               <h3>কেন বেকার?</h3>
+               <p>বেকার.com হচ্ছে একটি বাংলাদেশি মার্কেটপ্লেস যেখানে রয়েছে 
+              </p>
+
+               <div class="about">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h2>
+                          <i class="fa-solid fa-circle-arrow-right"></i>
+                          স্বল্প খরচে সকল কাজ! </h2>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        কম খরচে করিয়ে নিন আপনার পছন্দমত সকল কাজ
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       <h2><i class="fa-solid fa-circle-arrow-right"></i> কম সময়ে কোয়ালিটিপূর্ণ কাজ </h2>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        বেকার.com এ রয়েছে বাংলাদেশের জনপ্রিয় কিছু মোবাইল ব্যাংকিং 
+                        সেবা,যার মাধ্যমে আপনি কোন ঝঞ্ঝাট ছাড়াই আপনার লেনদেন পারবেন                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                       <h2><i class="fa-solid fa-circle-arrow-right"></i> মোবাইল ব্যাংকিং সুবিধা </h2>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        বেকার.com এ রয়েছে বাংলাদেশের জনপ্রিয় কিছু মোবাইল ব্যাংকিং সেবা,যার মাধ্যমে আপনি কোন ঝঞ্ঝাট ছাড়াই আপনার লেনদেন পারবেন                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                      <h2><i class="fa-solid fa-circle-arrow-right"></i>  কাজের নিশ্চয়তার পরে সুরক্ষিত পেমেন্ট ব্যবস্থা </h2>
+                      </button>
+                    </h2>
+                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        এ সময় আপনি অবগত থাকবেন আপনার পেমেন্ট অবস্থা নিয়ে। এক্ষেত্রে ক্লায়েন্ট ও আপনার মাঝে সরাসরি অথোরিটি সম্পৃক্ত থাকবে                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                      <h2><i class="fa-solid fa-circle-arrow-right"></i>  ২৪/৭ অথোরিটি সাপোর্ট       </h2>                 </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        যেকোন সময়,যেকোন সমস্যায় অথবা যেকোন প্রয়োজনে যোগাযোগ করুন আমাদের সাথে                    </div>
+                  </div>
+                </div>
+               </div>
+             </div>
+             <div class="svg">
+               <img src="../img/opppp 1.png" alt="">
+             </div>
+           </div>
+            
+         </div>
+         </div>
+
+
+         <div class="top-carted">
+           <h1 class="line my-3" style="color: #ad0000;">আমাদের টপ চার্টেড ক্যাটাগরিস !</h1>
+           <div class="row1">
+           
+             <img class="coll">
+             <figure> <img src="../img/laptop.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>UI DESIGN</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+            <figure> <img src="../img/logod.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>DIGITAL ART</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+            <figure> <img src="../img/digital.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>WEB DESIGN</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+            <figure> <img src="../img/logod.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>Logo DESIGN</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+
+            <figure> <img src="../img/digital.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>UI DESIGN</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+            <figure> <img src="../img/logod.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>DIGITAL ART</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+            <figure> <img src="../img/laptop.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>WEB DESIGN</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+            <figure> <img src="../img/laptop.png" alt="">
+                
+              <figcaption class="img-text">
+                <h2>Logo DESIGN</h2>
+            <p>See Works</p>
+            </figcaption> </figure>
+             
+               </div>
+            </div>
+           </div>
+         </div>
+
+         <div class="bekar-market">
+           <h1 style="color: #ad0000;" class="line mb-5">বেকার মার্কেটপ্লেস!</h1>
+           <div class="row new mb-5">
+            <a href="horse.html"> <div class="col-lg-3 mx-4 t-border">
+             <img src="../img/t2.png" alt="" class="img-thumbnail">
+             <div class="info px-2 py-2">
+               <h1>DATABASE WEBSITE</h1>
+               <h3>QUALITY</h3>
+               <p class="d-inline-block"><i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star-half-stroke star"></i></p><span>(4.5)</span> 
+               <br>
+               <div class="image  d-inline-block">
+                 <img src="../img/nayem.jpg" alt="" class="img-fluid rounded-circle d-inline-block">
+                 
+               
+               </div>
+               <p class="d-inline ">
+                  <b><span class="">Zannat Nayem <i class=" d-inline-block fa-solid fa-badge-check"></i></span></b> 
+                 </p>
+                 <p class="d-inline">
+                   <b>Price:<span class="d-inline tk">২০০০৳</span></b> 
+                  </p>
+             </div>
+           </div></a>
+            <a href="checkout-horse.html">
+             <div class="col-lg-3 mx-4 t-border">
+               <img src="../img/t1.png" alt="" class="img-thumbnail">
+               <div class="info px-2 py-2">
+                 <h1>DATABASE WEBSITE</h1>
+                 <h3>QUALITY</h3>
+                 <p class="d-inline-block"><i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star-half-stroke star"></i></p><span>(4.5)</span> 
+                 <br>
+                 <div class="image  d-inline-block" >
+                   <img src="../img/nayem.jpg" alt="" class="img-fluid rounded-circle d-inline-block">
+                   
+                 
+                 </div>
+                 <p class="d-inline ">
+                    <b><span class="">Zannat Nayem <i class=" d-inline-block fa-solid fa-badge-check"></i></span></b> 
+                   </p>
+                   <p class="d-inline">
+                     <b>Price:<span class="d-inline tk">২০০০৳</span></b> 
+                    </p>
+               </div>
+             </div>
+            </a>
+             <div class="col-lg-3 mx-4 t-border">
+               <img src="../img/t3.png" alt="" class="img-thumbnail">
+               <div class="info px-2 py-2">
+                 <h1>DATABASE WEBSITE</h1>
+                 <h3>QUALITY</h3>
+                 <p class="d-inline-block"><i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star-half-stroke star"></i></p><span>(4.5)</span> 
+                 <br>
+                 <div class="image  d-inline-block">
+                   <img src="../img/nayem.jpg" alt="" class="img-fluid rounded-circle d-inline-block">
+                   
+                 
+                 </div>
+                 <p class="d-inline ">
+                    <b><span class="">Zannat Nayem <i class=" d-inline-block fa-solid fa-badge-check"></i></span></b> 
+                   </p>
+                   <p class="d-inline">
+                     <b>Price:<span class="d-inline tk">২০০০৳</span></b> 
+                    </p>
+               </div>
+               <span></span>
+             </div>
+           </div>
+         </div>
+         <div class="motivation my-5">
+           <p>আমাদের পড়ালেখা শেখানো হয় ,শেখানো হয় কিভাবে মার্কস পেতে হয় এরপর আমরা স্কুল হয়ে কলেজ, কলেজ পার হয়ে ভার্সিটি যাই, ভার্সিটি পার হওয়ার পর আমাদের বলা হয় টাকা ইনকাম করতে যা আমরা কখনোই শিখিনি, এটিই বেকার থেকে যাওয়ার একটি কারন হতে পারে
+
+           </p> <p>-জ্ঞ্যানি কথাবার্তা শো তে আয়মান সাদিক</p>
+         </div>
+         <div class="contact">
+          <center>
+            <h1>CONNECT US ON</h1>
+            <p class="c-p"><a href="https://web.facebook.com/the.abstract.philosophers" class="mx-4 fs-2"><i class="fa-brands fa-facebook"></i></a> <a href="tel: 01735463695" class="mx-4 fs-2"><i class="fa-brands fa-whatsapp"></i></a> <a href="mailto: zannatnayem2@gmail.com" class="mx-4 fs-2"><i class="fa-solid fa-envelope"></i></a> </p>
+       <p class="fw-bold"> বেকার.com এ কোনো রকম প্রতারনাকারী শনাক্ত করা হলে তাদের বিরুদ্ধে যথাযথ আইনী ব্যবস্থা নেয়া হবে।এখানে কোনরুপ কাজ যা কপিরাইট আওতাভুক্ত তার ব্যবহার এখানে করা আইনত দন্ডনীয়</p>
+          <br>
+          <h3>all copyrights researved by বেকার.com</h3>
+          <p>বেকার.com হচ্ছে একটি বাংলাদেশি মার্কেটপ্লেস যেখানে রয়েছে
+          </p>
+          </center>
+         
+          </div>
+        </div>
+
+       </main>
+   </div>
+   <script>
+         let user = JSON.parse(localStorage.getItem('users'));
+      let userNum = user.length;
+      let usernumber= document.querySelector(".usernumber");
+      usernumber.innerHTML='0000'+userNum;
+
+      jQuery(document).ready(function() {
+  jQuery(window).resize(function() {
+    var myDiv = jQuery(".row1"),
+        myChild = myDiv.find("> *:first-child");
+    myDiv.animate({
+      scrollLeft: (myChild.width() - myDiv.width()) / 2
+    }, {
+      duration: 0
+    });
+  });
+
+  jQuery(window).resize();
+});
+   </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+    </script>
+    <script src="https://use.fontawesome.com/ae217b9aff.js"></script>
+       <!-- Bothelp.io widget -->
+<script type="text/javascript">!function(){var e={"buttons":[{"type":"whatsapp","token":"01312765644"}],"color":"#F0645A","position":"right","bottomSpacing":"","callToActionMessage":"Message Us","displayOn":"desktop","lang":"en"},t=document.location.protocol+"//bothelp.io",o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=t+"/widget-folder/widget-page.js",o.onload=function(){new BhWidgetPage.init(e)};var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(o,n)}();</script>
+<!-- /Bothelp.io widget -->
+
+</body>
+</html>

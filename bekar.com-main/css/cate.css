@@ -1,0 +1,42 @@
+.head4 h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 21px;
+    color: #E20000;
+}
+hr {
+    height: auto;
+    color: #E20000;
+    width: 100%;
+}
+.wrrap7{
+    min-height: 100vh;
+}
+.row.rowc div {
+    border: 1px solid black;
+    border-radius: 9px;
+}
+h4.size-c {
+    white-space: nowrap;
+    font-size: 1rem;
+    margin: 0 14px;
+}
+.row.rowc div {
+    margin-top: 41px;
+}
+
+.row.rowc {
+    margin-left: 6rem;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.c-header {
+    margin-top: 3rem;
+}
+.wrrap7 {
+    min-height: 100vh;
+    padding-top: 3rem;
+}

@@ -1,0 +1,112 @@
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+
+
+}
+.b-hr {
+    color: #E20000;
+    height: 20px;
+    border-bottom: 6px solid #e20000;
+    position: relative;
+    margin-left: 142px;
+    margin-top: -16px;
+    border-radius: 5px;
+}
+.profile-img{
+    width: 280px;
+    height: 280px;
+}
+.profile-img {
+    margin-top: 14%;
+    margin-left: 11%;
+}
+.wrrap5{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(249,224,224,1) 100%);
+min-height: 120vh;
+}
+.sohi{
+    font-size: 12px;
+   
+}
+.w-u{
+    margin-left: 80px;
+}
+.num{
+    font-size: 3.5rem;
+    color: #E20000;
+
+font-family: poppins;}
+.row2{
+    margin-top: 11%;
+}
+.top-img {
+    height: 153px;
+}
+.top-img img:last-child {
+    height: 50%;
+}
+.top-img img:first-child {
+    height: 51%;
+    width: 140px;
+}
+
+.img-
+.col-lg-6.left-top-img {
+    height: 153px;
+}
+
+.col-lg-6.left-top-img img {
+    height: 100%;
+}
+.col-lg-6.left-top-img {
+    height: 153px;
+    margin: 0;
+    padding: 0;
+    width: 176px;
+}
+.top-img {
+    height: 153px;
+    margin: 0;
+    padding: 0;
+}
+.contact-p{
+    text-align: center;
+    align-items: center;
+    margin-left: -109px;
+    margin-top: 21px;}
+    p.c-p.contact-s {
+        margin-left: 56px;
+    }
+    a.navbar-brand.home-logo.down {
+        margin-left: 75%;
+    }
+    .navbar {
+        position: fixed;
+        width: 100%;
+        margin-top: -48px;
+    }
+    .wrrap5 {
+        padding-top: 3rem;
+    }
+    .row.img-row {
+        margin-left: 29px;
+    }
+    .contact-pp {
+        margin-left: 21px;
+    }
+
+element.style {
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+}
+.home-logo {
+    color: #E20000 !important;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Hind Siliguri';
+}

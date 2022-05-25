@@ -1,0 +1,76 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.info.px-2.py-2 {
+    margin: 0;
+}
+.first-header{
+    color: #fff;
+    font-size: 83px;
+    font-weight: 700 !important;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-top: 9rem;
+}
+.container1{
+        background-color:#AD0000;
+    min-height: 100vh;
+
+}
+.menu
+{
+    margin-left: 140px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.m-logo{
+    color: #e20000;
+}
+.market{
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #e20000};
+
+    hr{
+        color: #e20000;
+    }
+    .tk {
+        font-size: 27px;
+        margin: 50px;
+    }
+    .row.row10 {
+        margin-left: 6rem;
+        /* padding-top: 0rem; */
+    }
+    .row.row10 div {
+        margin-top: 2rem;
+    }
+    
+    .info h1 {
+        font-size: 1.1rem !important;
+        color: black;
+        white-space: nowrap;
+    }    
+    .t-border {
+        border: 1px solid rgb(173, 0, 0) !important;
+        border-radius: 5px;
+    }
+    .row.row10 a{
+        text-decoration: none;
+        display: inline;
+        color: black;
+        display: contents;
+    }
+    .m-header {
+        margin-top: 3rem;
+    }
+    .wrrap8 {
+        padding-top: 1rem;
+    }

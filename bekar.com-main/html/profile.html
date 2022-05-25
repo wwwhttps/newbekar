@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/contest.css">
+  <link rel="stylesheet" href="../css/home.css">  
+  <link rel="stylesheet" href="../css/profile.css">
+<title>বেকার.com</title>
+    <link rel="icon" href="../img/logo.png" type="image/icon type">
+<style>
+  input.up-file {
+    margin-top: 16%;
+    position: absolute;
+    background: #64444400;
+    margin-left: -25.5%;
+    z-index: 1;
+    opacity: 0;
+}
+input.up-file {
+    margin-top: 10.8%;
+    position: absolute;
+    background: black;
+    margin-left: -1.5%;
+    z-index: 1;
+    opacity: 0;
+    width: 2rem;
+}
+.up-btn {
+    display: inline-block;
+    /* background: #ad0000; */
+    color: #ad0000;
+    cursor: pointer;
+    margin-top: 10.4%;
+    position: absolute;
+    margin-left: -1.4%;
+    align-items: center;
+    padding: 17px;
+    justify-content: center;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 56%;
+    text-align: center;
+    opacity: 1;
+    font-size: 2rem;
+    position: absolute;
+    padding: 0;
+    padding-top: -28px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand home-logo" href="#">বেকার<span>.com</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+                  <li class="nav-item  mx-4">
+                    <a class="nav-link " aria-current="page" href="home1.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link" href="market.html">MARKETPLACE</a>
+                  </li>
+                  <li class="nav-item  mx-4">
+                    <a class="nav-link " href="categorise.html">
+                      MEDIA
+                      
+                    </a>
+                    <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
+                  </li>
+                  <li class="nav-item mx-4">
+                    <a class="nav-link active" href="#" tabindex="-1" >PROFILE</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+       </header>
+
+       <section class="mt-5">
+           <main>
+               <div class="container">
+                   <div class="wrrap5">
+                    <div class="head3">
+                        <h1 class="com">
+                            PROFILE<hr class="b-hr">
+                        </h1>
+                      <button onclick="logout()" class="btn logout" style="color: #fff;
+                      background: #ad0000;
+                      margin-left: 90%;">
+                        Log out
+                      </button>
+                       </div>
+                       <div class="row">
+                           <div class="col-lg-6 profile-img">
+                        
+                            <img src="../img/man.jpg" class="rounded up-img img-fluid" alt="">
+                            <input type="file" class="up-file" placeholder="upload profile picture">
+                            <label for="file" class="up-btn"><i class="fa-solid fa-circle-plus"></i></label>
+    
+                     <h1 class="mt-3 fw-bolder ml-2 text-capitalize currentName1">
+                       Sohi Munshi
+                        <!-- <script>
+                      document.write( localStorage.getItem('name'))
+                     </script> -->
+                      </h1>
+                            <b>                 <span class="sohi mt-0"> Graphic Designer, Motion Graphic Artist</span>
+                            </b>
+                    </div>
+                           <div class="col-lg-6 w-u">
+                               <div class="row row2">
+                                   <div class="col-lg-6">
+                                    <h2 class="Works">Works</h2>
+                                    <h3 class="mx-3  num">20</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                       <h2 class="uploads">Uploads</h2>
+                                       <h3 class="mx-3  num">50</h3>
+                                    </div>
+                                   </div>
+                                   <div class="dem">
+                                       <h1><b><p class="mx-5">D E M O <span></span>  W O R K S</p></b></h1>
+                                   <div class="row img-row">
+                                       <div class="col-lg-6 left-top-img">
+                                           <img src="../img/dead.png" class="img-fluid" alt="">
+
+                                       </div>
+                                       <div class="col-lg-6 top-img">
+                                           <img src="../img/bp.png" class="img-fluid" alt="">
+                                           <img src="../img/mount.png " class="img-fluid" alt="">
+                                       </div>
+                                   </div>
+                                   <div class="contact-pp"> <h4 class="contact-p"><p>CONNECT ME ON</p></h4>
+                                    <p class="c-p contact-s"><a href="https://web.facebook.com/the.abstract.philosophers" class="mx-4 fs-2"><i class="fa-brands fa-facebook"></i></a> <a href="tel: 01735463695" class="mx-4 fs-2"><i class="fa-brands fa-whatsapp"></i></a> <a href="mailto: zannatnayem2@gmail.com" class="mx-4 fs-2"><i class="fa-solid fa-envelope"></i></a> </p>
+                                    <a class="navbar-brand home-logo down" href="#">বেকার<span>.com</span></a>
+
+                                </div>
+                                    
+                                    </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <center class="m-3">       
+                    
+                <p class="my-5">বেকার.com এ কোনো রকম প্রতারনাকারী শনাক্ত করা হলে তাদের বিরুদ্ধে যথাযথ আইনী ব্যবস্থা নেয়া হবে।এখানে কোনরুপ কাজ যা কপিরাইট আওতাভুক্ত তার ব্যবহার এখানে করা আইনত দন্ডনীয়</p>
+                              <p class="my-2">all copyrights researved by @েবকার.com</p>
+  </center> 
+           </main>
+       </section>
+       <script>
+          let name=localStorage.getItem('name')?localStorage.getItem('name'):''
+        if(name=='')
+        {
+          alert('You need to login first');
+          window.location.href="login.html";
+        }
+        let currentUserName = localStorage.getItem('name');
+        let currentName = document.querySelector(".currentName1");
+        currentName.innerHTML = currentUserName;
+        function logout(){
+          localStorage.removeItem('name');
+          localStorage.removeItem('email');
+          window.location.href = "login.html"
+        };
+
+      //  upload profile picture
+
+const imgDiv = document.querySelector('.profile-img');
+const img = document.querySelector('.up-img');
+const file = document.querySelector('.up-file');
+const uploadBtn = document.querySelector('.up-Btn');
+var picture = localStorage.getItem("pic");
+
+//if user hover on img div 
+
+// imgDiv.addEventListener('mouseenter', function(){
+//     uploadBtn.style.display = "block";
+// });
+
+// //if we hover out from img div
+
+// imgDiv.addEventListener('mouseleave', function(){
+//     uploadBtn.style.display = "none";
+// });
+
+//lets work for image showing functionality when we choose an image to upload
+
+//when we choose a foto to upload
+
+file.addEventListener('change', function(){
+    //this refers to file
+    const choosedFile = this.files[0];
+
+    if (choosedFile) {
+
+        const reader = new FileReader(); //FileReader is a predefined function of JS
+
+        reader.addEventListener('load', function(){
+localStorage.setItem("currentImg",reader.result);
+          img.setAttribute('src', reader.result);
+          console.log(reader.result)
+        });
+
+        reader.readAsDataURL(choosedFile);
+
+        //Allright is done
+
+        //please like the video
+        //comment if have any issue related to vide & also rate my work in comment section
+
+        //And aslo please subscribe for more tutorial like this
+
+        //thanks for watching
+    }
+});
+document.addEventListener("DOMContentLoaded",function(){
+  const currentImg=localStorage.getItem("currentImg");
+  if (currentImg) {
+    img.setAttribute("src",currentImg)
+    
+  }
+
+})
+
+       </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      
+    </script>
+    <script src="https://use.fontawesome.com/ae217b9aff.js"></script>
+</body>
+</html>
