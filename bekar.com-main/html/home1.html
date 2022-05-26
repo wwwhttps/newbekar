@@ -41,7 +41,7 @@ li.nav-item.mx-2 {
     align-items: center;
 }
 
-.intro-text {
+/* .intro-text {
     position: absolute;
     height: 116vh;
     display: flex;
@@ -54,7 +54,7 @@ li.nav-item.mx-2 {
 }
 .intro-con h1 {color: #fff;font-size: 3.4rem;}
 
-.intro-con p {color: #fff;letter-spacing: 2px;font-size: 1.4rem;}
+.intro-con p {color: #fff;letter-spacing: 2px;font-size: 1.4rem;} */
 
 .intro-con input {
     width: 27rem;
@@ -63,7 +63,7 @@ li.nav-item.mx-2 {
     border: none;
     outline: none;
 }
-.in-text {position: relative;height: 11rem;}
+/* .in-text {position: relative;height: 11rem;} */
 .wrrap-new {
     min-height: 200vh;
 }
@@ -192,12 +192,38 @@ figcaption.img-text h2 {
 figure img:hover {
     transform: scale(1.2);
 }
+.intro-text {
+    position: absolute;
+    z-index: 435;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+body {
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.in-text h1 {font-size: 3.4rem;}
+
+.in-text p {letter-spacing: 2px;font-size: 1.4rem;}
+
+.in-text {margin-bottom: 3rem;}
 </style>
 </head>
 <body>
    <div class="container">
        <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand home-logo" href="#">বেকার<span>.com</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -213,26 +239,51 @@ figure img:hover {
                   </li>
                   <li class="nav-item  mx-2">
                     <a class="nav-link " href="categorise.html" >
-                     MEDIA
-                    </a>
+                    MEDIA
+                    </a> -->
                     <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">Action</a></li>
                       <li><a class="dropdown-item" href="#">Another action</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul> -->
-                  </li>
-                  <!-- <li class="nav-item mx-2">
+                  <!-- </li>
+                  <li class="nav-item mx-2">
                     <a class="nav-link  signup-btn" href="up.html" tabindex="-1" >Sign-up</a>
-                  </li> -->
+                  </li>
                 </ul>
               
+              </div>
+            </div>
+          </nav> -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand home-logo" href="#">বেকার<span>.com</span></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="market.html">MARKETPLACE</a>
+                  </li>
+               
+                  <li class="nav-item">
+                    <a class="nav-link" href="categorise.html">MEDIA</a>
+                  </li>
+           
+                </ul>
+               
               </div>
             </div>
           </nav>
        </header>
        <main>
-         <div class="container-main">
+         <!-- <div class="container-main">
            <div class="wrrap-slider">
              <div class="intro-text">
              <div class="intro-con">
@@ -267,6 +318,42 @@ figure img:hover {
               </button>
             </div>
            </div>
+         </div> -->
+
+         <div class="slider">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="intro-text">
+              <div class="intro-con">
+                <div class="in-text">
+                  <h1>
+                    স্বাগতম
+                   </h1>
+                   <p>আপনাকে বেকার.com এ</p>
+                </div>
+                   <input type="text" name="" id="" placeholder="SEARCH ACROSS THE WEB">
+                 </div>
+                </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/Group 78.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Group 77.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/Group 79.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
          </div>
          <div class="container">
            <div class="wrrap-new">
@@ -486,7 +573,7 @@ figure img:hover {
 
            </p> <p>-জ্ঞ্যানি কথাবার্তা শো তে আয়মান সাদিক</p>
          </div>
-         <div class="contact">
+         <!-- <div class="contact">
           <center>
             <h1>CONNECT US ON</h1>
             <p class="c-p"><a href="https://web.facebook.com/the.abstract.philosophers" class="mx-4 fs-2"><i class="fa-brands fa-facebook"></i></a> <a href="tel: 01735463695" class="mx-4 fs-2"><i class="fa-brands fa-whatsapp"></i></a> <a href="mailto: zannatnayem2@gmail.com" class="mx-4 fs-2"><i class="fa-solid fa-envelope"></i></a> </p>
@@ -497,7 +584,7 @@ figure img:hover {
           </p>
           </center>
          
-          </div>
+          </div> -->
         </div>
 
        </main>
